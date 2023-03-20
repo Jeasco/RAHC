@@ -19,48 +19,14 @@
 
 
 
-## Installation
-The model is built in PyTorch 1.1.0 and tested on Ubuntu 16.04 environment (Python3.7, CUDA9.0, cuDNN7.5).
-
-For installing, follow these intructions
-```
-conda create -n pytorch1 python=3.7
-conda activate pytorch1
-conda install pytorch=1.1 torchvision=0.3 cudatoolkit=9.0 -c pytorch
-pip install matplotlib scikit-image opencv-python timm einops ptflops PIL argparse
-```
-
-## Training
-- Download the [dataset](dataset/README.md) and run
-
-```
-cd dataset
-python prepare.py
-```
--  Download the pre-trained [VQGAN](https://heibox.uni-heidelberg.de/d/2e5662443a6b4307b470/) and place it in `./logs/`
--  Train the model with default arguments by running
-
-```
-python train.py
-```
+## Coming Soon
 
 
-## Evaluation
-
-1. Download the pre-trained model and place it in `./checkpoints/`
-
-2. Download the dataset and place it in `./datasets/`
-
-3. Run
-```
-python test.py
-```
-4. Visual results wii be saved in results
 
 ## Real-world Results
 <table>
   <tr>
-    <td> <img src = "figures/real.png"> </td>
+    <td> <img src = "figures/example.png"> </td>
   </tr>
 </table>
 
