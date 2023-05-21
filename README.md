@@ -1,4 +1,4 @@
-# Restoring Images Captured in Arbitrary Hybrid Adverse Weather Conditions in One Go (in submission)
+# Learning to Restore Arbitrary Hybrid Adverse Weather Conditions in One Go (in submission)
 
 
 
